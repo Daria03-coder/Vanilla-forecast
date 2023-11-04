@@ -88,17 +88,27 @@ main {
   display: flex;
   justify-content: space-between;
 }
+.weather-forecast-icon {
+  font-size: 38px;
+  text-align: center;
+}
 
 .weather-forecast-date {
   font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  font-family: "Lora", serif;
 }
 .weather-forecast-temperature-min {
   opacity: 0.5;
+  margin-left: auto;
 }
 .weather-forecast-temperatures {
-  font-size: 16px;
+  font-size: 18px;
   display: flex;
-  justify-content: space-between;
+  margin-top: 10px;
+  justify-content: center;
+  font-family: "Lora", serif;
 }
 footer {
   border-top: 1px solid #c3b6ed;
